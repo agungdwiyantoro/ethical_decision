@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/pattern"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/bar_approaches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybar"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/back_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/backicon" />
+
+        <TextView
+            android:id="@+id/tv_bar_approach"
+            android:text="@string/Essay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/DarkCyan"
+            android:theme="@style/Approaches" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+
+        <TableLayout
+            android:id="@+id/table_layout_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+
+            <TextView
+                android:background="@color/TransLightSteelBlue"
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b1"/>
+
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Jawab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban1"
+                android:textSize="18sp"/>
+
+
+
+
+            <TextView
+                android:background="@color/TransLightSteelBlue"
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b2"/>
+
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Jawab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban2"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:background="@color/TransLightSteelBlue"
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b3"/>
+
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Jawab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban3"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:background="@color/TransLightSteelBlue"
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b4"/>
+
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Jawab"/>
+
+
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urutan1"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban4_1"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urutan2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban4_2"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urutan3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban4_3"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:theme="@style/Pertanyaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urutan4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jawaban4_4"
+                android:textSize="18sp"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_next"
+                android:text="@string/Next"
+                android:layout_marginTop="10dp"/>
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+

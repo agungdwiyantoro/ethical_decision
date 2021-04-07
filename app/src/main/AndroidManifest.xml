@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycomputer.a200ribu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico_decision_making"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
+        >
+
+        <activity android:name=".screen_slide">
+            <intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan">
+
+
+        </activity>
+
+        <activity android:name=".hasil"  android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".test_screen_slide"  android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".log"/>
+        <activity android:name=".log2"/>
+        <activity android:name=".essays"  android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".BaseActivity"/>
+    </application>
+
+</manifest>

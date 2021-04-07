@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mycomputer.a200ribu.MainActivity"
+    android:padding="15dp"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/pattern">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/h1"
+            android:id="@+id/h1"
+            android:theme="@style/Pertanyaan"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/superman"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/h2"
+            android:id="@+id/h2"
+            android:theme="@style/Pertanyaan"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/angel_and_devil_jadi"
+            android:layout_gravity="center"
+            />
+
+        </LinearLayout>
+
+
+
+</ScrollView>

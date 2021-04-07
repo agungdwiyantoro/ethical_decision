@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <ScrollView
+        android:padding="10dp"
+        android:id="@+id/scrollView_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="320dp"
+                android:layout_height="180dp"
+                android:background="@drawable/instrucone"
+                android:layout_gravity="center"
+                />
+
+
+            <WebView
+                android:id="@+id/web_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="320dp"
+                android:layout_height="180dp"
+                android:background="@drawable/instructwo"
+                android:layout_gravity="center"
+                />
+
+
+
+            <WebView
+                android:id="@+id/web_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TableLayout
+            android:padding="10dp"
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView_6"
+            android:layout_weight="1"
+         >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:text="@string/utilitarianisme_text"
+                    android:layout_weight="3"/>
+
+                <EditText
+                    android:id="@+id/et_utilitarianisme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/et_20"
+                    android:selectAllOnFocus="true"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:text="@string/Deontologi_text"
+                    android:layout_weight="3"/>
+
+                <EditText
+                    android:id="@+id/et_deontologi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/et_20"
+                    android:selectAllOnFocus="true"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:text="@string/right_text"
+                    android:layout_weight="4"/>
+
+                <EditText
+                    android:id="@+id/et_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:layout_column="2"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/et_20"
+                    android:selectAllOnFocus="true"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_column="1"
+                    android:text="@string/virtue_text"
+                    android:layout_weight="4"/>
+
+                <EditText
+                    android:id="@+id/et_virtue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:layout_column="2"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/et_20"
+                    android:selectAllOnFocus="true"/>
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:text="@string/Teonom_text"
+                    android:textStyle="bold"
+                    android:layout_weight="4"
+                    />
+
+                <EditText
+                    android:id="@+id/et_teonom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:maxLength="3"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/et_20"
+                    android:selectAllOnFocus="true"/>
+            </TableRow>
+
+
+                <Button
+                    android:text="@string/Submit"
+                    android:id="@+id/OK"/>
+
+            <Button
+                android:text="@string/Edit"
+                android:id="@+id/Edit"
+                android:visibility="gone"/>
+        </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

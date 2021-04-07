@@ -1,0 +1,297 @@
+<resources>
+    <string name="app_name">Who Wants to be Ethical</string>
+
+    <!--judul opening-->
+    <string name="opening_title">Rerangka Pengambilan Keputusan Etis</string>
+
+    <!--beginning-->
+    <string name="h1">Bertindak etis itu hebat dan membawa kebaikan.</string>
+    <string name="h2">Berpikirlah rasional dan gunakan hati nurani.</string>
+
+    <string name="b1">Apakah  masalah yang Anda hadapi?</string>
+    <string name="b2">Tindakan apa yang Anda usulkan untuk mengatasi masalah tersebut?</string>
+    <string name="b3">Siapa saja pihak  yang akan terkena dampak dari keputusan tersebut ?</string>
+    <string name="b4">Coba buat peringkat pihak yang terkena dampak keputusan berdasarkan urutan seberapa penting mereka harus diprioritaskan.</string>
+    <string name="b5">Pihak paling penting : </string>
+
+    <!---animasi-->
+    <string name="fade_text">Langkah selanjutnya, berikan penilaian pada keputusan yang Anda ambil berdasarkan  teori/ pendekatan etika berikut:</string>
+
+    <!--approaches-->
+    <string name="utilitarianisme">Utilitarianisme</string>
+    <string name="deontologi">Deontologi</string>
+    <string name="right">Right atau Keadilan</string>
+    <string name="virtue">Virtue atau Kebajikan</string>
+    <string name="teonom">Teonom</string>
+
+    <!--cases-->
+    <string name="string_cases">
+        Terapkan kerangka pengambilan keputusan etis menggunakan pendekatan:
+    </string>
+
+
+
+    <array name="questions">
+        <item>@array/questions_utilitarianisme</item>
+        <item>@array/questions_deontologi</item>
+        <item>@array/questions_right</item>
+        <item>@array/questions_virtue</item>
+        <item>@array/questions_teonom</item>
+    </array>
+
+    <!--utilitarianisme-->
+    <string-array name="questions_utilitarianisme">
+        <item>1. Apakah keputusan tersebut memberikan banyak manfaat bagi banyak pihak?</item>
+        <item>2. Apakah manfaat keputusan melebihi biaya atau pengorbanannya ? </item>
+    </string-array>
+
+    <!--deontologi-->
+    <string-array name="questions_deontologi">
+        <item>1. Apakah tindakan atau keputusan yang Anda ambil  telah sesuai dengan prinsip umum/ universal (misalnya norma sosial, kode etik)?</item>>
+        <item>2. Apakah tindakan atau keputusan yang Anda ambil telah sesuai dengan aturan-aturan yang berlaku (misalnya aturan etika profesi, tata kelola)?</item>
+    </string-array>
+
+    <!--right-->
+    <string-array name="questions_right">
+        <item>1. Apakah keputusan Anda menghargai hak semua pihak? </item>
+        <item>2. Apakah ada pihak yang terlanggar haknya?</item>
+        <item>3. Apakah  keputusan yang Anda ambil sesuai dengan prinsip keadilan prosedural bahwa setiap orang harus diperlakukan sama di depan hukum ?</item>
+        <item>4. Apakah keputusan yang Anda ambil sesuai dengan prinsip keadilan distributif bahwa suatu hal yang setara harus diperlakukan sama, namun hal yang tidak setara harus diperlakukan berbeda sesuai dengan proporsi perbedaannya?</item>
+    </string-array>
+
+    <!--virtue-->
+    <string-array name="questions_virtue">
+        <item>1. Apakah tindakan yang diambil merupakan tindakan kebajikan ?</item>
+        <item>2. Apakah tindakan yang diambil berdasarkan karakter luhur seperti kejujuran, tanggungjawab, integritas?</item>
+    </string-array>
+
+    <!--teonom-->
+    <string-array name="questions_teonom">
+        <item>1. Apakah tindakan atau keputusan yang diambil sesuai dengan aturan agama?</item>
+        <item>2. Apakah  keputusan yang Anda ambil membawa kebahagiaan akhirat dan duniawi?</item>
+    </string-array>
+
+
+    <array name="answers_right">
+        <item>@array/answer_utilitarianisme</item>
+        <item>@array/answer_deontologi</item>
+        <item>@array/answer_right</item>
+        <item>@array/answer_virtue</item>
+        <item>@array/answer_teonom</item>
+    </array>
+
+    <array name="answers_left">
+        <item>@array/answer_utilitarianisme_left</item>
+        <item>@array/answer_deontologi_left</item>
+        <item>@array/answer_right_left</item>
+        <item>@array/answer_virtue_left</item>
+        <item>@array/answer_teonom_left</item>
+    </array>
+
+
+    <string-array name="answer_utilitarianisme">
+        <item>Merugikan banyak orang</item>
+        <item>Manfaat lebih kecil dari biaya/pengorbanan</item>
+    </string-array>
+
+
+    <!--deontologi-->
+    <string-array name="answer_deontologi">
+        <item>Sangat bertentangan </item>
+
+        <item>Sangat bertentangan </item>
+
+    </string-array>
+
+
+    <string-array name="answer_right">
+        <item>Sangat tidak menghargai</item>
+
+        <item>Sangat sedikit</item>
+
+        <item>Sangat tidak adil</item>
+
+        <item>Sangat tidak adil</item>
+
+    </string-array>
+
+
+<string-array name="answer_virtue">
+    <item>Tidak ada kebajikan</item>
+
+    <item>Tidak berkarakter</item>
+
+</string-array>
+
+
+<string-array name="answer_teonom">
+    <item>Tidak sesuai aturan agama</item>
+
+    <item>Sangat Tidak</item>
+
+</string-array>
+
+
+
+    <string-array name="answer_utilitarianisme_left">
+
+
+        <item>Bermanfaat bagi banyak orang</item>
+        <item>Manfaat lebih besar dari biaya</item>
+    </string-array>
+
+
+    <!--deontologi-->
+    <string-array name="answer_deontologi_left">
+        <item>Sangat sesuai </item>
+        <item>Sangat sesuai </item>
+    </string-array>
+
+
+    <string-array name="answer_right_left">
+        <item>Sangat menghargai</item>
+        <item>Sangat banyak </item>
+        <item>Sangat adil </item>
+        <item>Sangat adil </item>
+    </string-array>
+
+
+    <string-array name="answer_virtue_left">
+        <item>Lebih banyak kebajikan</item>
+        <item>Sangat berkarakter</item>
+    </string-array>
+
+
+    <string-array name="answer_teonom_left">
+        <item>Sesuai aturan agama</item>
+        <item>Sangat Membawa Kebahagiaan Dunia Akhirat</item>
+    </string-array>
+
+
+
+    <!--final fragment-->
+    <string name="prologue_6">Pemberian bobot pada pendekatan yang digunakan dalam pengambilan keputusan etis</string>
+
+    <string name="utilitarianisme_text">Utilitarianisme</string>
+    <string name="Deontologi_text">Deontologi atau motivasi untuk perilaku</string>
+    <string name="right_text">Right atau Keadilan</string>
+    <string name="virtue_text">Virtue atau kebijakan</string>
+    <string name="Teonom_text">Teori Teonom</string>
+
+    <string name="et_20">20</string>
+    <string name="view_result">Lihat Hasil</string>
+    <string name="continue_button">continue</string>
+
+
+    <!--Evaluasi Keputusan-->
+    <string name="prologue_7">Berdasarkan evaluasi pada  keputusan yang Anda ambil, maka:</string>
+    <string name="hasil_1">Tindakan anda tidak sesuai nilai etika.  Buatah tindakan atau keputusan lain. Ulang lagi dari langkah ke 2.</string>
+    <string name="hasil_2">Tindakan anda dipertanyakan.  Tentukan tindakan atau keputusan alternatif. Ulang lagi dari langkah ke 2.</string>
+    <string name="hasil_3">Berdasarkan pendekatan dan nilai yang  anda gunakan, tindakan anda kemungkinan besar merupakan tindakan etis. </string>
+
+    <string name="langkah_langkah">Langkah-langkah Berikut Akan Membantu Anda Untuk Membuat Keputusan Etis.</string>
+
+    <!--Table-->
+    <string name="Peringkat">Peringkat</string>
+    <string name="Pemangku">Pemangku Kepentingan</string>
+    <string name="mereka">Kepentingan Mereka</string>
+    <string name="dampak">Dampak </string>
+
+    <!--hasil-->
+    <string name="description"> Berdasarkan evaluasi pada tindakan atau keputusan yang diambil berdasarkan pendekatan etika. Nilai dari tindakan yang Anda Ambil Adalah:</string>
+
+
+    <string name="evaluasi">Evaluasi Opsi Anda</string>
+
+    <string name="Before">Before we get started</string>
+
+    <string name="Result">Evaluasi Keputusan</string>
+
+    <string name="splash">Who Wants to be Ethical</string>
+    <string name="splash_bawah">Aplikasi Pembantu Untuk Membuat Keputusan Etikal</string>
+
+    <string name="versi">v 1.0.0</string>
+
+    <string name="lihatlog">Log</string>
+
+
+    <string name="teonom_button">Tidak sesuai aturan agama</string>
+    <string name="teonom_button_right">sesuai aturan agama</string>
+    <string name="urutan1">"Urutan 1 : ...."</string>
+    <string name="urutan2">"Urutan 2 : ...."</string>
+    <string name="urutan3">"Urutan 3 : ...."</string>
+    <string name="urutan4">"Urutan 4 : ...."</string>
+
+    <string name="fragment1_utilitarisme">Suatu tindakan merupakan tindakan etis jika konsekuensi tindakan memberikan banyak manfaat bagi banyak pihak.</string>
+
+    <string-array name="pertanyaan_log">
+        <item>1. Apakah keputusan tersebut memberikan banyak manfaat bagi banyak pihak?</item>
+        <item>Merugikan banyak orang</item>
+        <item>Bermanfaat bagi banyak orang</item>
+        <item>2. Apakah manfaat keputusan melebihi biaya atau pengorbanannya ? </item>
+        <item>Manfaat lebih kecil dari biaya / pengorbanan</item>
+        <item>Manfaat lebih besar dari biaya</item>
+        <item>3. Apakah tindakan atau keputusan yang diambil telah sesuai dengan prinsip umum / universal ?</item>>
+        <item>Sangat bertentangan</item>
+        <item>Sangat sesuai</item>
+        <item>4. Apakah tindakan atau keputusan yang diambil telah sesuai dengan aturan-aturan yang berlaku (misalnya aturan etika profesi, tata kelola)?</item>
+        <item>Sangat bertentangan</item>
+        <item>Sangat sesuai</item>
+        <item>5. Apakah keputusan tersebut menghargai hak semua pemangku kepentingan? </item>
+        <item>Sangat tidak menghargai hak pemangku kepentingan</item>
+        <item>Sangat  menghargai hak pemangku kepentingan</item>
+        <item>6. Apakah ada pihak atau pemangku kepentigan yang terlanggar haknya?</item>
+        <item>Sangat sedikit</item>
+        <item>Sangat banyak</item>
+        <item>7. Apakah tindakan atau keputusan tersebut sesuai dengan prinsip keadilan prosedural bahwa setiap orang  harus diperlakukan sama di depan hukum dan aturan-aturan diterapkan secara sama?</item>
+        <item>Sangat tidak adil</item>
+        <item>Sangat adil</item>
+        <item>8. Apakah tindakan atau keputusan tersebut sesuai dengan prinsip keadilan distributif bahwa suatu hal yang setara harus diperlakukan sama, namun hal yang tidak setara harus diperlakukan berbeda sesuai dengan proporsi perbedaan yang relevan.?</item>
+        <item>Sangat tidak adil</item>
+        <item>Sangat adil</item>
+        <item>9. Apakah tindakan yang diambil merupakan tindakan kebajikan ?</item>
+        <item>Tidak ada kebajikan</item>
+        <item>Lebih banyak kebajikan</item>
+        <item>10. Apakah tindakan yang diambil berdasarkan karakter luhur seperti kejujuran, tanggungjawab, integritas?</item>
+        <item>Tidak berkarakter</item>
+        <item>Sangat berkarakter</item>
+        <item>11. Apakah tindakan atau keputusan yang diambil sesuai dengan aturan agama?</item>
+        <item>Tidak sesuai aturan agama</item>
+        <item>Sesuai aturan agama</item>
+        <item>12. Apakah tindakan atau keputusan yang diambil membawa kebahagiaan akhirat dan duniawi?</item>
+        <item>Sangat tidak</item>
+        <item>Sangat membawa kebahagiaan dunia akhirat</item>
+    </string-array>
+
+    <string name="copyright">Copyright © 2018, 	Dr. Ratna Candra Sari, SE., M.Si, Akt, All rights reserved.</string>
+
+    <string name="button_show_question">Show Questions</string>
+    <string name="button_hide_question">Hide Questions</string>
+
+    <string name="button_show_form">Show Form</string>
+    <string name="button_hide_form">Hide Form</string>
+
+    <string name="Submit">Submit</string>
+    <string name="Edit">Edit</string>
+
+    <string name="Jawab">Jawab : </string>
+
+    <string name="Next">Next </string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+
+    <string name="Essay">Essay Answers</string>
+    <string name="Xanswser">Slide Bar Answer </string>
+
+    <string name="OK">OK</string>
+
+    <string name="plus">+</string>
+
+
+
+
+    <string name="utilitarianisme_desc">Suatu tindakan merupakan tindakan etis jika konsekuensi tindakan memberikan banyak manfaat bagi banyak pihak.</string>
+    <string name="deontologi_desc">Kebenaran bergantung pada ketaatan dalam menjalankan tugas. Gunakan standar moral, prinsip dan aturan-aturan sebagai paduan untuk membuat keputusan etis yang terbaik.  Suatu tindakan dinyatakan etis berdasarkan motivasi pembuat keputusan,  meskipun tidak menghasilkan manfaat bagi semua pihak.</string>
+
+
+</resources>

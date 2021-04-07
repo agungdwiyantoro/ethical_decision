@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fillAfter="true"
+    android:repeatMode="restart"
+    android:repeatCount="24"
+    android:fromXDelta="0%p"
+    android:toXDelta="75%p"
+    android:duration="800">
+
+</scale>

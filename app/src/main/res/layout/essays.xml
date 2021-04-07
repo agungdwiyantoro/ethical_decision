@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@drawable/pattern"
+
+    tools:context="com.example.mycomputer.a200ribu.essays">
+
+<include layout="@layout/header"/>
+
+
+
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/thinking_bulb"
+            android:layout_gravity="center"
+            />
+
+
+    <com.example.mycomputer.a200ribu.NonSwipeableViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pagerTabStrip"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="top" >
+        </android.support.v4.view.PagerTabStrip>
+    </com.example.mycomputer.a200ribu.NonSwipeableViewPager>
+
+
+
+
+</LinearLayout>
+
